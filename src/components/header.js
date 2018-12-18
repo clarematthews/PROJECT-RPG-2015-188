@@ -7,7 +7,7 @@ import Image from './image'
 const Header = ({ siteTitle }) => (
   <div
     style={{
-      background: 'grey',
+      background: '#c0c0c0',
       marginBottom: '1.45rem',
     }}
   >
@@ -18,18 +18,7 @@ const Header = ({ siteTitle }) => (
         padding: '1.45rem 1.0875rem',
       }}
     >
-	    <Image />
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+	    <Image name="logo" fixed />
     </div>
   </div>
 )
