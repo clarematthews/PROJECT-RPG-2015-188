@@ -6,20 +6,20 @@ import SEO from '../components/seo'
 
 const ComparisonPage = () => (
   <Layout>
-    <SEO title="Feature representation for online video summarisation" keywords={['online', 'summarisation', 'features', 'egocentric']} />
+    <SEO title="Feature representation" keywords={['online', 'summarisation', 'features', 'egocentric']} />
     <h1>Selecting feature representation for online summarisation of egocentric videos</h1>
     <div style={{paddingBottom: '25px', paddingTop: '25px'}}>
 	    Visualising the content of a video through a keyframe summary has been a long-standing quest in computer vision. Using real egocentric videos, this paper explores the suitability of seven feature representations of the video frames for the purpose of online summarisation. Computational speed is an essential requirement in this set-up. We found that simple feature spaces such as HSV histograms and RGB moments are a good compromise between speed and representativeness in comparison with semantically richer but computationally more cumbersome spaces obtained through convolutional neural networks.
     </div>
-    <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
-    </div>
     <hr />
-    <div>
+    <div style={{paddingBottom: '25px'}}>
 Table of results
     </div>
     <hr />
+    <div style={{paddingBottom: '25px'}}>
     <h3>Reference</h3>
     Yousefi P., Kuncheva L.I. and Matthews C.E., Selecting Feature Representation for Online Summarisation of Egocentric Videos. Proceedings of EG UK Computer Graphics \& Visual Computing (CGVC 2018), 2018, Swansea, UK.
+    </div>
     <hr />
     <div>
 	    <h3>Links</h3>
