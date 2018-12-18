@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import BudgetImage from '../components/budget-image'
+import Image from '../components/image'
 
 const BudgetPage = () => (
   <Layout>
@@ -14,13 +14,13 @@ const BudgetPage = () => (
     </div>
     <hr />
     <div style={{ position: 'relative', paddingBottom: '56.25%', paddingTop: '25px', height: '0' }}>
-    <iframe style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%' }} width="560" height="315" src="https://www.youtube.com/embed/5VowGnGlQ0g?vq=hd720&modestbranding=1&controls=0&amp;" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%' }} width="560" height="315" src="https://www.youtube.com/embed/5VowGnGlQ0g?vq=hd720&modestbranding=1&controls=0&amp;" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
     </div>
     <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
     </div>
     <hr />
     <div>
-	    <BudgetImage />
+	    <Image name="visualisation" fluid />
     </div>
     <hr />
     <h3>Reference</h3>

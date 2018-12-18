@@ -17,7 +17,14 @@ const Image = (props) => (
 	<StaticQuery
     query={graphql`
       query {
-        logoBackground: file(relativePath: { eq: "logo-background.jpg" }) {
+        logo: file(relativePath: { eq: "logo.jpg" }) {
+          childImageSharp {
+            fixed(width: 300) {
+              ...GatsbyImageSharpFixed
+            }
+          }
+        }
+        visualisation: file(relativePath: { eq: "visualisation.jpg" }) {
           childImageSharp {
             fluid(maxWidth: 2000) {
               ...GatsbyImageSharpFluid
@@ -27,9 +34,11 @@ const Image = (props) => (
       }
     `}
     render={data => {
-	    console.log(data)
-	    console.log(props)
-	    return <Img fluid={data.logoBackground.childImageSharp.fluid} />
+	    if (props.fluid) {
+        return <Img fluid={data[props.name].childImageSharp.fluid} />
+      } else {
+        return <Img fixed={data[props.name].childImageSharp.fixed} />
+      }
     }}
   />
 )
