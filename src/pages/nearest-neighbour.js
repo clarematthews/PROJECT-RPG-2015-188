@@ -34,6 +34,12 @@ const NearestNeighbourPage = () => (
 	    Code:
 	    <a style={{paddingLeft: '5px'}}>GitHub?</a>
     </p>
+    <p>
+            Data:
+            <a style={{paddingLeft: '5px'}} href="https://sites.google.com/site/vsummsite/download">VSUMM</a>
+            <a style={{paddingLeft: '5px'}} href="https://gyglim.github.io/me/vsum/index.html#benchmark">SumMe</a>
+            <a style={{paddingLeft: '5px'}} href="http://vision.cs.utexas.edu/projects/egocentric_data/UT_Egocentric_Dataset.html">UT Ego</a>
+    </p>
 
     </div>
     <hr />

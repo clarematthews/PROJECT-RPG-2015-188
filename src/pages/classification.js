@@ -408,7 +408,7 @@ const ClassificationPage = () => (
     </p>
     <p>
             Data:
-            <a style={{paddingLeft: '5px'}} href="https://sites.google.com/site/vsummsite/">VSUMM</a>
+            <a style={{paddingLeft: '5px'}} href="https://sites.google.com/site/vsummsite/download">VSUMM</a>
     </p>
 
     </div>

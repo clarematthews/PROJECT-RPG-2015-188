@@ -35,7 +35,11 @@ EDUB lifelog.
 	    Code:
 	    <a style={{paddingLeft: '5px'}}>GitHub?</a>
     </p>
-
+    <p>
+            Data:
+            <a style={{paddingLeft: '5px'}} href="http://vision.cs.utexas.edu/projects/egocentric_data/UT_Egocentric_Dataset.html">UT Ego</a>
+            <a style={{paddingLeft: '5px'}} href="https://www.dropbox.com/s/py8xhalqxz15co3/EDUB%202015.zip?dl=0">EDUB</a>
+    </p>
     </div>
     <hr />
     <div>
