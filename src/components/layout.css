@@ -353,6 +353,17 @@ ol {
   margin-bottom: 1.45rem;
   list-style-position: outside;
   list-style-image: none;
+  counter-reset: list;
+}
+.smallFont li {
+  font-size: 0.75em;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: "[" counter(list) "] ";
+  counter-increment: list;
 }
 dl {
   margin-left: 0;
@@ -621,4 +632,8 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+td {
+	padding: 8px;
+	font-size: 80%;
 }

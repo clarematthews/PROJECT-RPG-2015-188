@@ -31,6 +31,20 @@ const Image = (props) => (
             }
           }
         }
+        classification: file(relativePath: { eq: "classification.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	spider: file(relativePath: { eq: "spider.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     `}
     render={data => {
