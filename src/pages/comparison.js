@@ -13,7 +13,42 @@ const ComparisonPage = () => (
     </div>
     <hr />
     <div style={{paddingBottom: '25px'}}>
-Table of results
+	    <p><b>Table 1</b>  The main characteristics of the analysed feature spaces, and comparison of: 1- the average time of feature extraction for the sampled ADL video #8, and 2- the average Matthews correlation coefficient (MCC) for summaries of all 20 ADL videos. For the HSV histogram features, the number of bins used for each of the channels is H:32, S:4, V:2.</p>
+	    <table class="centred separated">
+		    <tr>
+			    <td></td><td>RGB moments</td><td>CENTRIST</td><td>Color layout MPEG7</td><td>places205-AlexNet CNN</td><td>Gist</td><td>HSV histogram</td><td>VGG CNN</td>
+		    </tr>
+		    <tr>
+			    <td><b>Frame size</b></td><td colSpan="7"></td>
+		    </tr>
+		    <tr>
+			    <td>Resized</td><td></td><td></td><td></td><td></td><td>&#x2713;</td><td>&#x2713;</td><td></td>
+		    </tr>
+		    <tr>
+			    <td>Original</td><td>&#x2713;</td><td>&#x2713;</td><td>&#x2713;</td><td>&#x2713;</td><td></td><td></td><td>&#x2713;</td>
+		    </tr>
+		    <tr>
+			    <td><b>Type</b></td><td colSpan="7"></td>
+		    </tr>
+		    <tr>
+			    <td>Colour</td><td>&#x2713;</td><td></td><td>&#x2713;</td><td></td><td></td><td>&#x2713;</td><td></td>
+		    </tr>
+		    <tr>
+			    <td>Scene</td><td></td><td>&#x2713;</td><td></td><td></td><td>&#x2713;</td><td></td><td></td>
+		    </tr>
+		    <tr class="bordered">
+			    <td>CNN</td><td></td><td></td><td></td><td>&#x2713;</td><td></td><td></td><td>&#x2713;</td>
+		    </tr>
+		    <tr>
+			    <td>Time (sec)</td><td>50</td><td>160</td><td>519</td><td>494</td><td>233</td><td>30</td><td>2377</td>
+		    </tr>
+		    <tr>
+			    <td>Dimensions</td><td>54</td><td>294</td><td>192</td><td>4096</td><td>512</td><td>256</td><td>4096</td>
+		    </tr>
+		    <tr>
+			    <td>MCC value</td><td>0.68</td><td>0.63</td><td>0.52</td><td>0.46</td><td>0.45</td><td>0.44</td><td>0.43</td>
+		    </tr>
+	    </table>
     </div>
     <hr />
     <div style={{paddingBottom: '25px'}}>
@@ -29,6 +64,10 @@ Table of results
     <p>
 	    Code:
 	    <a style={{paddingLeft: '5px'}}>GitHub?</a>
+    </p>
+    <p>
+            Data:
+            <a style={{paddingLeft: '5px'}} href="https://www.csee.umbc.edu/~hpirsiav/papers/ADLdataset/">Activities of Daily Living</a>
     </p>
 
     </div>

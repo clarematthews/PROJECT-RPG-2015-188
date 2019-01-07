@@ -637,3 +637,15 @@ td {
 	padding: 8px;
 	font-size: 80%;
 }
+
+table.centred td {
+	text-align: center;
+}
+
+table.separated td + td {
+	border-left: 1px solid grey;
+}
+
+tr.bordered td {
+	border-bottom: 2px solid grey;
+}
