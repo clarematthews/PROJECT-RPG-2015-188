@@ -89,15 +89,15 @@ const Image = (props) => (
         }
 	selectiveFoodNoSemantic: file(relativePath: { eq: "selective-summary/food-summary-no-semantic.jpg" }) {
           childImageSharp {
-            fixed(width: 450) {
-              ...GatsbyImageSharpFixed
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
             }
           }
         }
 	selectiveFood: file(relativePath: { eq: "selective-summary/food-summary.jpg" }) {
           childImageSharp {
-            fixed(width: 450) {
-              ...GatsbyImageSharpFixed
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
             }
           }
         }

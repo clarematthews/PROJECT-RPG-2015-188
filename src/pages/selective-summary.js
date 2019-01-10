@@ -145,13 +145,13 @@ EDUB lifelog.
 	    <Image name='selectiveGT' fluid />
 	    <p style={{textAlign: 'center'}}>(a) Ground truth summary selected by user.</p>
     </div>
-    <div style={{display: 'flex', justifyContent: 'space-around', alignItems: 'flex-end', flexWrap: 'wrap'}}>
-	    <div>
-                    <Image name='selectiveFood' fixed />
+    <div style={{display: 'flex', justifyContent: 'space-around', alignItems: 'flex-end'}}>
+	    <div style={{flexGrow: '1'}}>
+                    <Image name='selectiveFood' fluid />
 		    <p style={{textAlign: 'center'}}>(b) Summary using semantic search.</p>
 	    </div>
-	    <div>
-                    <Image name='selectiveFoodNoSemantic' fixed />
+	    <div style={{flexGrow: '1'}}>
+                    <Image name='selectiveFoodNoSemantic' fluid />
 		    <p style={{textAlign: 'center'}}>(c) Summary without semantic search.</p>
 	    </div>
     </div>
