@@ -101,6 +101,349 @@ const Image = (props) => (
             }
           }
         }
+	nnCartoonEvents: file(relativePath: { eq: "nearest-neighbour/cartoon-events.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnCartoonSummaryCentroid: file(relativePath: { eq: "nearest-neighbour/cartoon-summary-centroid.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnCartoonSummaryNN: file(relativePath: { eq: "nearest-neighbour/cartoon-summary-nn.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnSyntheticEx: file(relativePath: { eq: "nearest-neighbour/synthetic-ex.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnVSUMMEvents: file(relativePath: { eq: "nearest-neighbour/vsumm-events.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnVSUMMSummary: file(relativePath: { eq: "nearest-neighbour/vsumm-summary.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnVSUMMClassCC: file(relativePath: { eq: "nearest-neighbour/vsumm-class-cc.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnVSUMMClassGTS: file(relativePath: { eq: "nearest-neighbour/vsumm-class-gts.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnSUMMEEvents: file(relativePath: { eq: "nearest-neighbour/summe-events.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnSUMMESummary: file(relativePath: { eq: "nearest-neighbour/summe-summary.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnSUMMEClassCC: file(relativePath: { eq: "nearest-neighbour/summe-class-cc.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnSUMMEClassGTS: file(relativePath: { eq: "nearest-neighbour/summe-class-gts.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnUTEEvents: file(relativePath: { eq: "nearest-neighbour/ute-events.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnUTESummary: file(relativePath: { eq: "nearest-neighbour/ute-summary.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnUTEClassCC: file(relativePath: { eq: "nearest-neighbour/ute-class-cc.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnUTEClassGTS: file(relativePath: { eq: "nearest-neighbour/ute-class-gts.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnRGB1: file(relativePath: { eq: "nearest-neighbour/rgb1.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnRGB2: file(relativePath: { eq: "nearest-neighbour/rgb2.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnRGB3: file(relativePath: { eq: "nearest-neighbour/rgb3.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnHSV1: file(relativePath: { eq: "nearest-neighbour/hsv1.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnHSV2: file(relativePath: { eq: "nearest-neighbour/hsv2.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnHSV3: file(relativePath: { eq: "nearest-neighbour/hsv3.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnLBP1: file(relativePath: { eq: "nearest-neighbour/lbp1.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnLBP2: file(relativePath: { eq: "nearest-neighbour/lbp2.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnLBP3: file(relativePath: { eq: "nearest-neighbour/lbp3.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnHOG1: file(relativePath: { eq: "nearest-neighbour/hog1.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnHOG2: file(relativePath: { eq: "nearest-neighbour/hog2.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnHOG3: file(relativePath: { eq: "nearest-neighbour/hog3.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnCNN1: file(relativePath: { eq: "nearest-neighbour/cnn1.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnCNN2: file(relativePath: { eq: "nearest-neighbour/cnn2.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnCNN3: file(relativePath: { eq: "nearest-neighbour/cnn3.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnPCA1: file(relativePath: { eq: "nearest-neighbour/pca1.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnPCA2: file(relativePath: { eq: "nearest-neighbour/pca2.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnPCA3: file(relativePath: { eq: "nearest-neighbour/pca3.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnSEM1: file(relativePath: { eq: "nearest-neighbour/sem1.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnSEM2: file(relativePath: { eq: "nearest-neighbour/sem2.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnSEM3: file(relativePath: { eq: "nearest-neighbour/sem3.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnP01SummaryGT: file(relativePath: { eq: "nearest-neighbour/p01-summary-gt.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnP01SummaryCC: file(relativePath: { eq: "nearest-neighbour/p01-summary-cc.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnP01SummaryGTS: file(relativePath: { eq: "nearest-neighbour/p01-summary-gts.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnP02SummaryGT: file(relativePath: { eq: "nearest-neighbour/p02-summary-gt.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnP02SummaryCC: file(relativePath: { eq: "nearest-neighbour/p02-summary-cc.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnP02SummaryGTS: file(relativePath: { eq: "nearest-neighbour/p02-summary-gts.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnP03SummaryGT: file(relativePath: { eq: "nearest-neighbour/p03-summary-gt.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnP03SummaryCC: file(relativePath: { eq: "nearest-neighbour/p03-summary-cc.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnP03SummaryGTS: file(relativePath: { eq: "nearest-neighbour/p03-summary-gts.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnP04SummaryGT: file(relativePath: { eq: "nearest-neighbour/p04-summary-gt.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnP04SummaryCC: file(relativePath: { eq: "nearest-neighbour/p04-summary-cc.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	nnP04SummaryGTS: file(relativePath: { eq: "nearest-neighbour/p04-summary-gts.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     `}
     render={data => {
