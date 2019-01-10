@@ -24,24 +24,80 @@ const Image = (props) => (
             }
           }
         }
-        visualisation: file(relativePath: { eq: "visualisation.jpg" }) {
+	visualisation: file(relativePath: { eq: "budget/visualisation.jpg" }) {
           childImageSharp {
             fluid(maxWidth: 2000) {
               ...GatsbyImageSharpFluid
             }
           }
         }
-        classification: file(relativePath: { eq: "classification.jpg" }) {
+	classification: file(relativePath: { eq: "classification/classification.jpg" }) {
           childImageSharp {
             fluid(maxWidth: 2000) {
               ...GatsbyImageSharpFluid
             }
           }
         }
-	spider: file(relativePath: { eq: "spider.png" }) {
+	spider: file(relativePath: { eq: "classification/spider.png" }) {
           childImageSharp {
             fluid(maxWidth: 2000) {
               ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	selectiveMethod: file(relativePath: { eq: "selective-summary/method.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	selectiveSearch: file(relativePath: { eq: "selective-summary/search.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	selectiveFP: file(relativePath: { eq: "selective-summary/false-positive.jpg" }) {
+          childImageSharp {
+            fixed(width: 300) {
+              ...GatsbyImageSharpFixed
+            }
+          }
+        }
+	selectiveFN: file(relativePath: { eq: "selective-summary/false-negative.jpg" }) {
+          childImageSharp {
+            fixed(width: 300) {
+              ...GatsbyImageSharpFixed
+            }
+          }
+        }
+	selectivePhone: file(relativePath: { eq: "selective-summary/phone-summary.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	selectiveGT: file(relativePath: { eq: "selective-summary/food-ground-truth.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	selectiveFoodNoSemantic: file(relativePath: { eq: "selective-summary/food-summary-no-semantic.jpg" }) {
+          childImageSharp {
+            fixed(width: 450) {
+              ...GatsbyImageSharpFixed
+            }
+          }
+        }
+	selectiveFood: file(relativePath: { eq: "selective-summary/food-summary.jpg" }) {
+          childImageSharp {
+            fixed(width: 450) {
+              ...GatsbyImageSharpFixed
             }
           }
         }
