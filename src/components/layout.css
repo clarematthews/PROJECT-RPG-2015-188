@@ -434,7 +434,6 @@ table {
   font-size: 1rem;
   line-height: 1.45rem;
   border-collapse: collapse;
-  width: 100%;
 }
 fieldset {
   margin-left: 0;
@@ -645,4 +644,22 @@ table.separated td + td {
 
 tr.bordered td {
 	border-bottom: 2px solid grey;
+}
+
+.frac {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    letter-spacing: 0.001em;
+    text-align: center;
+}
+.frac > span {
+    display: block;
+    padding: 0.1em;
+}
+.frac span.bottom {
+    border-top: thin solid black;
+}
+.frac span.symbol {
+    display: none;
 }

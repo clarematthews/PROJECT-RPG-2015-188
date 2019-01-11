@@ -444,6 +444,20 @@ const Image = (props) => (
             }
           }
         }
+	baselineMatches: file(relativePath: { eq: "baseline/matches.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	baselineFMeasure: file(relativePath: { eq: "baseline/f-measure.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     `}
     render={data => {
