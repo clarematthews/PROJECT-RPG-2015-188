@@ -633,6 +633,9 @@ td {
 	padding: 8px;
 	font-size: 80%;
 }
+td.right-border {
+	border-right: 1px solid grey;
+}
 
 table.centred td {
 	text-align: center;

@@ -458,6 +458,125 @@ const Image = (props) => (
             }
           }
         }
+	protocolEvaluationApproaches: file(relativePath: { eq: "protocol/evaluation-approaches.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	protocolDiscriminationCapacity: file(relativePath: { eq: "protocol/discrimination-capacity.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	protocolCuThreshEuclidean: file(relativePath: { eq: "protocol/cu-thresh-euclidean.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	protocolCuThreshManhattan: file(relativePath: { eq: "protocol/cu-thresh-manhattan.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	protocolCuThreshSURF: file(relativePath: { eq: "protocol/cu-thresh-surf.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	protocolCuMatchingEuclidean: file(relativePath: { eq: "protocol/cu-matching-euclidean.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	protocolCuMatchingManhattan: file(relativePath: { eq: "protocol/cu-matching-manhattan.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	protocolCuMatchingSURF: file(relativePath: { eq: "protocol/cu-matching-surf.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	protocolCuFeatures: file(relativePath: { eq: "protocol/cu-features.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	protocolSummaryDT: file(relativePath: { eq: "protocol/summary-dt.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	protocolSummaryOV: file(relativePath: { eq: "protocol/summary-ov.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	protocolSummarySTIMO: file(relativePath: { eq: "protocol/summary-stimo.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	protocolSummaryVSUMM1: file(relativePath: { eq: "protocol/summary-vsumm1.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	protocolSummaryVSUMM2: file(relativePath: { eq: "protocol/summary-vsumm2.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	protocolSummaryU4: file(relativePath: { eq: "protocol/summary-u4.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	protocolSummaryU5: file(relativePath: { eq: "protocol/summary-u5.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	protocolSummaryU7: file(relativePath: { eq: "protocol/summary-u7.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     `}
     render={data => {
