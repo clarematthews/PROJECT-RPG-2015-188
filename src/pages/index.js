@@ -52,7 +52,8 @@ const IndexPage = () => (
 	    <h3>Evaluation</h3>
 	    Summary comparison.  <br/>
 	    <Link to='baseline'>Closest-to-centroid baseline paper</Link> <br/>
-	    <Link to='protocol'>Protocol paper</Link>
+	    <Link to='protocol'>Protocol paper</Link> <br/>
+	    <Link to='graph-matching'>Bipartite graph matching paper</Link>
     </div>
     <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
     </div>

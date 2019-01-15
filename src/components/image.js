@@ -577,6 +577,69 @@ const Image = (props) => (
             }
           }
         }
+	graphMatchingV28Greedy3: file(relativePath: { eq: "graph-matching/match-v28-greedy3.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	graphMatchingV28Greedy5: file(relativePath: { eq: "graph-matching/match-v28-greedy5.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	graphMatchingV28Kannappan5: file(relativePath: { eq: "graph-matching/match-v28-kannappan5.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	graphMatchingV39Greedy5: file(relativePath: { eq: "graph-matching/match-v39-greedy5.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	graphMatchingV39Maximal5: file(relativePath: { eq: "graph-matching/match-v39-maximal5.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	graphMatchingV39Kannappan5: file(relativePath: { eq: "graph-matching/match-v39-kannappan5.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	graphMatchingV34Greedy5: file(relativePath: { eq: "graph-matching/match-v34-greedy5.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	graphMatchingV34Mahmoud5: file(relativePath: { eq: "graph-matching/match-v34-mahmoud5.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	graphMatchingV34Kannappan5: file(relativePath: { eq: "graph-matching/match-v34-kannappan5.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     `}
     render={data => {

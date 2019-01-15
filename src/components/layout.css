@@ -649,6 +649,10 @@ tr.bordered td {
 	border-bottom: 2px solid grey;
 }
 
+tr.unbordered td {
+	border-bottom: 0;
+}
+
 .frac {
     display: inline-block;
     position: relative;

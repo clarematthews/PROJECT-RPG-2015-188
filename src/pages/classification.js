@@ -363,31 +363,31 @@ const ClassificationPage = () => (
       <hr/>
       <ol class="smallFont">
 	      <li>
-		      Abd-Almageed, W.: Online, simultaneous shot boundary detection and key frame extraction for sports videos using rank tracing. In: IEEE 15th International Conference on Image Processing (ICIP 2008), 3200–3203 (2008)
+		      Abd-Almageed W.: Online, simultaneous shot boundary detection and key frame extraction for sports videos using rank tracing. In: IEEE 15th International Conference on Image Processing (ICIP 2008), 3200–3203 (2008)
 	      </li>
 	      <li>
-		      Almeida, J., Leite, N.J., Torres, R.d.S.: Online video  summarization on compressed domain. Journal of Visual Communication and Image Representation, vol. 24 (6), 729–738 (2013)
+		      Almeida J., Leite N.J., Torres R.d.S.: Online video  summarization on compressed domain. Journal of Visual Communication and Image Representation, vol. 24 (6), 729–738 (2013)
 	      </li>
 	      <li>
-		      Anirudh, R., Masroor, A., Turaga, P.: Diversity promoting onlinesampling for streaming video summarization. In: IEEE International Conference on Image Processing (ICIP 2016), 3329–3333 (2016)
+		      Anirudh R., Masroor A., Turaga P.: Diversity promoting onlinesampling for streaming video summarization. In: IEEE International Conference on Image Processing (ICIP 2016), 3329–3333 (2016)
 	      </li>
 	      <li>
-		      Elhamifar, E., Kaluza, M.C.D.P.: Online summarization via submodular and convex optimization. In: IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2017), 1818–1826 (2017)
+		      Elhamifar E., Kaluza M.C.D.P.: Online summarization via submodular and convex optimization. In: IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2017), 1818–1826 (2017)
 	      </li>
 	      <li>
-		      Mei, S., Guan, G., Wang, Z., Wan, S., He, M., Feng, D.D.:Video summarization via minimum sparse reconstruction. Pattern Recognition, vol. 48 (2), 522–533 (2015)
+		      Mei S., Guan G., Wang Z., Wan S., He M., Feng D.D.:Video summarization via minimum sparse reconstruction. Pattern Recognition, vol. 48 (2), 522–533 (2015)
 	      </li>
 	      <li>
-		      Ou, S.H., Lee, C.H., Somayazulu, V.S., Chen, Y.K., Chien, S.Y.:On-line multi-view video summarization for wireless video sensor network. IEEE Journal of Selected Topics in Signal Processing, vol. 9 (1), 165–179 (2015)
+		      Ou S.H., Lee C.H., Somayazulu V.S., Chen Y.K., Chien S.Y.:On-line multi-view video summarization for wireless video sensor network. IEEE Journal of Selected Topics in Signal Processing, vol. 9 (1), 165–179 (2015)
 	      </li>
 	      <li>
-		      Rasheed, Z., Shah, M.: Scene detection in hollywood movies and tv shows. In: Proceedings IEEE Computer Society Conference on Computer Vision and Pattern Recognition, vol. 2, 343–343 (2003)
+		      Rasheed Z., Shah M.: Scene detection in hollywood movies and tv shows. In: Proceedings IEEE Computer Society Conference on Computer Vision and Pattern Recognition, vol. 2, 343–343 (2003)
 	      </li>
 	      <li>
-		      Song, M., Wang, H.: Highly efficient incremental estimation of gaussian mixture models for online data stream clustering. In: SPIE 5803, Intelligent Computing: Theory and Applications III, vol. 5803, 174–184 (2005)
+		      Song M., Wang H.: Highly efficient incremental estimation of gaussian mixture models for online data stream clustering. In: SPIE 5803, Intelligent Computing: Theory and Applications III, vol. 5803, 174–184 (2005)
 	      </li>
 	      <li>
-		      Truong, B.T., Venkatesh, S.: Video abstraction: A systematic review and classification. ACM Transactions on Multimedia Computing, Communications, and Applications, vol. 3(1), (2007)
+		      Truong B.T., Venkatesh S.: Video abstraction: A systematic review and classification. ACM Transactions on Multimedia Computing, Communications, and Applications, vol. 3(1), (2007)
 	      </li>
       </ol>
     </div>
