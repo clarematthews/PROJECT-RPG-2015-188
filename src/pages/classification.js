@@ -400,7 +400,7 @@ const ClassificationPage = () => (
     <div>
 	    <h3>Links</h3>
 	    <p>
-	    <a style={{paddingLeft: '5px'}} href="">Paper</a>
+	    <a style={{paddingLeft: '5px'}} href="https://link.springer.com/article/10.1007/s00138-019-01007-x?wt_mc=Internal.Event.1.SEM.ArticleAuthorOnlineFirst&utm_source=ArticleAuthorOnlineFirst&utm_medium=email&utm_content=AA_en_06082018&ArticleAuthorOnlineFirst_20190121">Paper</a>
     </p>
     <p>
 	    Code:
