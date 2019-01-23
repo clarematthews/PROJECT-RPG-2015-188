@@ -14,6 +14,7 @@ const ClassificationPage = () => (
     </div>
     <hr />
     <div style={{paddingBottom: '25px'}}>
+	    <h3>Classification</h3>
 	    <div>
 		    <Image name='classification' fluid />
 		    <p><a name="classification"><b>Fig. 1</b>  A classification of online video summarisation methods.</a></p>
@@ -318,6 +319,7 @@ const ClassificationPage = () => (
       </div>
       <hr/>
       <div>
+	      <h3>Results</h3>
 	      <Image name='spider' fluid />
 	      <p><b>Fig. 2</b>  Average F-measure for each method in <a href="#methods">Table 1</a> compared to five user ground-truth summaries for  VSUMM video  #21. Method summaries are generated using HSV and RGB feature spaces. Summaries are matched using histograms of hue values for the selected frames.</p>
       </div>
@@ -394,7 +396,7 @@ const ClassificationPage = () => (
     <hr />
     <div style={{paddingBottom: '25px'}}>
     <h3>Reference</h3>
-    Matthews C.E., Kuncheva L.I. and Yousefi P., Classification and Comparison of On-Line Video Summarisation Methods. Accepted: Machine Vision and Applications.
+    <p>Matthews C.E., Kuncheva L.I. and Yousefi P., Classification and Comparison of On-Line Video Summarisation Methods. Accepted: Machine Vision and Applications.</p>
     </div>
     <hr />
     <div>

@@ -13,6 +13,7 @@ const ComparisonPage = () => (
     </div>
     <hr />
     <div style={{paddingBottom: '25px'}}>
+	    <h3>Results</h3>
 	    <p><b>Table 1</b>  The main characteristics of the analysed feature spaces, and comparison of: 1- the average time of feature extraction for the sampled ADL video #8, and 2- the average Matthews correlation coefficient (MCC) for summaries of all 20 ADL videos. For the HSV histogram features, the number of bins used for each of the channels is H:32, S:4, V:2.</p>
 	    <table class="centred separated">
 		    <tr>
@@ -53,7 +54,7 @@ const ComparisonPage = () => (
     <hr />
     <div style={{paddingBottom: '25px'}}>
     <h3>Reference</h3>
-    Yousefi P., Kuncheva L.I. and Matthews C.E., Selecting Feature Representation for Online Summarisation of Egocentric Videos. Proceedings of EG UK Computer Graphics \& Visual Computing (CGVC 2018), 2018, Swansea, UK.
+    <p>Yousefi P., Kuncheva L.I. and Matthews C.E., Selecting Feature Representation for Online Summarisation of Egocentric Videos. Proceedings of EG UK Computer Graphics \& Visual Computing (CGVC 2018), 2018, Swansea, UK.</p>
     </div>
     <hr />
     <div>

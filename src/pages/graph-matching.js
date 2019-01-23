@@ -13,8 +13,8 @@ const GraphMatchingPage = () => (
 			A keyframe summary, or “static storyboard”, is a collection of frames from a video designed to summarise its semantic content. Many algorithms have been proposed to extract such summaries automatically. How best to evaluate these outputs is an important but little-discussed question. We review the current methods for matching frames between two summaries in the formalism of graph theory. Our analysis revealed different behaviours of these methods, which we illustrate with a number of case studies. Based on the results, we recommend a greedy matching algorithm due to Kannappan et al.
 		</div>
 		<hr />
-		<h3>Matching algorithms</h3>
 		<div style={{paddingBottom: '25px'}}>
+			<h3>Matching algorithms</h3>
 			<div>
 				<hr style={{width: '50%', marginBottom: 0}}/>
 				<p style={{marginBottom: 0}}><b>Algorithm 1</b>: Greedy Matching</p>
@@ -118,18 +118,9 @@ const GraphMatchingPage = () => (
 				</table>
 			</div>
 		</div>
-		<hr/>
-		<ol class="smallFont">
-			<li>
-				Mahmoud K.: An enhanced method for evaluating automatic video summaries. arXiv preprint arXiv:1401.3590 (2014)
-			</li>
-			<li>
-				Kannappan S., Liu Y., Tiddeman B.: A pertinent evaluation of automatic video summary. In: Proceedings of the 23rd International Conference on Pattern Recognition (2016)
-			</li>
-		</ol>
 		<hr />
-		<h3>Examples</h3>
 		<div style={{paddingBottom: '25px'}}>
+			<h3>Examples</h3>
 			<div style={{display: 'flex', justifyContent: 'space-around'}}>
 				<div style={{flexBasis: '30%'}}>
 					<Image name='graphMatchingV28Greedy5' fluid/>
@@ -183,9 +174,20 @@ const GraphMatchingPage = () => (
 			<p><b>Fig. 3</b>  Matchings between the output of the Still and Moving Video Storyboard for the Web Scenario (STIMO) algorithm and the summary provided by user #2 for VSUMM video #34.</p>
 		</div>
 		<hr/>
+		<div>
+			<ol class="smallFont">
+				<li>
+					Mahmoud K.: An enhanced method for evaluating automatic video summaries. arXiv preprint arXiv:1401.3590 (2014)
+				</li>
+				<li>
+					Kannappan S., Liu Y., Tiddeman B.: A pertinent evaluation of automatic video summary. In: Proceedings of the 23rd International Conference on Pattern Recognition (2016)
+				</li>
+			</ol>
+		</div>
+		<hr/>
 		<div style={{paddingBottom: '25px'}}>
 			<h3>Reference</h3>
-			Gunn I.A.D., Kuncheva L.I., and Yousefi P., Bipartite graph matching for keyframe summary evaluation. arXiv:1712.06914v1, 2017.
+			<p>Gunn I.A.D., Kuncheva L.I., and Yousefi P., Bipartite graph matching for keyframe summary evaluation. arXiv:1712.06914v1, 2017.</p>
 		</div>
 		<hr/>
 		<div>

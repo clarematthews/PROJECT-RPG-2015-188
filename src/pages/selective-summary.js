@@ -19,6 +19,7 @@ EDUB lifelog.
     </div>
     <hr />
     <div style={{paddingBottom: '25px'}}>
+	    <h3>Method</h3>
 	    <div>
                     <Image name='selectiveMethod' fluid />
                     <p><b>Fig. 1</b>  Diagram of the proposed method for selective egocentric video summarisation.</p>
@@ -26,20 +27,23 @@ EDUB lifelog.
             <hr/>
 	    <div>
                     <Image name='selectiveSearch' fluid />
-                    <p><b>Fig. 2</b>  Illustration of the semantic search process using a frame from UT Ego video P02 and query ‘automobile’.</p>
+                    <p><b>Fig. 2</b>  Illustration of the semantic search process using a frame from UT Ego video P02. ResNet returned description: car mirror. The search query was ‘automobile’.  The similarity score between the tokenised frame description and the query was assessed at value 1 by WordNet. According to our threshold, the frame was given label 1 indicating that it matches the query.</p>
             </div>
             <hr/>
-	    <div style={{display: 'flex', justifyContent: 'center'}}>
-		    <div style={{marginRight: '16px'}}>
-			    <Image name='selectiveFP' fixed />
-			    <p>(a) False positive</p>
+	    <div>
+		    <h3>Results</h3>
+		    <div style={{display: 'flex', justifyContent: 'center'}}>
+			    <div style={{marginRight: '16px'}}>
+				    <Image name='selectiveFP' fixed />
+				    <p>(a) False positive</p>
+			    </div>
+			    <div>
+				    <Image name='selectiveFN' fixed />
+				    <p>(b) False negative</p>
+			    </div>
 		    </div>
-		    <div>
-			    <Image name='selectiveFN' fixed />
-			    <p>(b) False negative</p>
-		    </div>
+		    <p><b>Fig. 3</b>  Frames from egocentric videos UT Ego P02 and P01 mislabelled by the semantic labelling algorithm. (a): false positive for ‘television’, and (b): false negative for ‘food’. Poor quality images is a common problem with egocentric videos.</p> 
 	    </div>
-		    <p><b>Fig. 3</b>  Frames from egocentric videos UT Ego P02 and P01 mislabelled by the semantic labelling algorithm. (a): false positive for ‘television’, and (b): false negative for ‘food’.</p> 
             <hr/>
 	    <div>
                     <Image name='selectivePhone' fluid />
@@ -94,7 +98,7 @@ EDUB lifelog.
     </div>
     <hr/>
     <div>
-	    <p><b>Table 2</b>  Results of the Selective Summary process for different user queries per video (in %).</p>
+	    <p><b>Table 2</b>  Results of the Selective Summary process for different user queries per video (in %). An occurrence-led event segmentation (OLES) is applied to the videos and then keyframes selected. For the values in the left side of the table, frames were manually labelled with concepts. Values in the right side are the results of using the frames returned by the semantic concept search in the OLES and keyframe selection. The values are lower in the right-hand side due to the imperfection of the semantic search part of the pipeline.</p>
 	    <table>
 		    <tr>
 			    <td></td><td></td><td colSpan="3">Selective Summary without Concept Search algorithm</td><td colSpan="3">Selective Summary method</td>
@@ -147,19 +151,19 @@ EDUB lifelog.
     </div>
     <div style={{display: 'flex', justifyContent: 'space-around', alignItems: 'flex-end'}}>
 	    <div style={{flexGrow: '1'}}>
+                    <Image name='selectiveFoodNoSemantic' fluid />
+		    <p style={{textAlign: 'center'}}>(c) Summary with manual concept labelling.</p>
+	    </div>
+	    <div style={{flexGrow: '1'}}>
                     <Image name='selectiveFood' fluid />
 		    <p style={{textAlign: 'center'}}>(b) Summary using semantic search.</p>
 	    </div>
-	    <div style={{flexGrow: '1'}}>
-                    <Image name='selectiveFoodNoSemantic' fluid />
-		    <p style={{textAlign: 'center'}}>(c) Summary without semantic search.</p>
-	    </div>
     </div>
-    <p><b>Fig. 5</b>  Keyframes of (a) the ground truth summary, and the proposed summaries for UT Ego video P03, with (b) and without (c) using semantic search. The query concept is ‘food’.</p>
+    <p><b>Fig. 5</b>  Keyframes of (a) the ground truth summary, and the proposed summaries for UT Ego video P03, (b) with manual labelling and (c) using semantic search. The query concept is ‘food’. The frames returned by the closest-to-centroid keyframe selection method in (b) are very close to the user selection, both semantically and visually. This indicates that, should we have a better semantic search algorithm, the selective summarisation method may be expected to be accurate and useful.</p>
     <hr/>
     <div style={{paddingBottom: '25px'}}>
     <h3>Reference</h3>
-    Yousefi P. and Kuncheva L.I., Selective Keyframe Summarisation for Egocentric Videos Based on Semantic Concept Search. 3rd IEEE International Conference on Image Processing, Applications and Systems (IPAS 2018), 2018, Sophia Antipolis, France.
+    <p>Yousefi P. and Kuncheva L.I., Selective Keyframe Summarisation for Egocentric Videos Based on Semantic Concept Search. 3rd IEEE International Conference on Image Processing, Applications and Systems (IPAS 2018), 2018, Sophia Antipolis, France.</p>
     </div>
     <hr />
     <div>

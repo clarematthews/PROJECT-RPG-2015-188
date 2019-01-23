@@ -17,8 +17,8 @@ const NearestNeighbourPage = () => (
 	    Video
     </div>
     <hr />
-    <h3>Method</h3>
     <div style={{paddingBottom:'25px'}}>
+	    <h3>Method</h3>
 	    <div style={{display:'flex', justifyContent: 'space-around', alignItems: 'center'}}>
 		    <div style={{flexGrow: '1', flexShrink: '0', flexBasis: '50%'}}>
 			    <Image name='nnCartoonEvents' fluid/>
@@ -139,8 +139,8 @@ const NearestNeighbourPage = () => (
 	    </div>
     </div>
     <hr />
-	    <h3>Summaries</h3>
 	    <div>
+		    <h3>Summaries</h3>
 		    <Image name='nnVSUMMEvents' fluid/>
 		    <p style={{textAlign: 'center'}}>(a) Uniformly spaced frames from four events.</p>
 		    <Image name='nnVSUMMSummary' fluid/>
@@ -258,8 +258,8 @@ const NearestNeighbourPage = () => (
 		    <p><b>Fig. 10</b>  UT Ego video P04. Summaries: GT, CC and GTS with highlighted matches. &#916;F = 0.20 for &#952;<sub>H</sub> = 0.2, <i>t = c - 1</i>, space CNN</p>
 	    </div>
 	    <hr/>
-	    <h3>Analysis</h3>
 	    <div>
+		    <h3>Analysis</h3>
 		    <p><b>Table 1</b>  Correlation coefficients between F-values and the error rate E for the CNN feature space for the four videos and the three tabu parameter values. For an egocentric video split into 9–12 events, <i>t = c - 1</i> is a good choice.</p>
 		    <table>
 			    <tr>
@@ -281,8 +281,8 @@ const NearestNeighbourPage = () => (
 	    </div>
 	    <hr/>
     <div style={{paddingBottom:'25px'}}>
-    <h3>Reference</h3>
-    Kuncheva L.I., Yousefi P. and Almeida J., Edited nearest neighbour for selecting keyframe summaries of egocentric videos. Journal of Visual Communication and Image Representation, 52, 2018, pp 118 - 130.
+	    <h3>Reference</h3>
+	    <p>Kuncheva L.I., Yousefi P. and Almeida J., Edited nearest neighbour for selecting keyframe summaries of egocentric videos. Journal of Visual Communication and Image Representation, 52, 2018, pp 118 - 130.</p>
     </div>
     <hr />
     <div>

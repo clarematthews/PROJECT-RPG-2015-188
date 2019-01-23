@@ -18,15 +18,16 @@ const BudgetPage = () => (
     </div>
     <hr />
     <div style={{paddingBottom: '25px'}}>
+	    <h3>Results</h3>
 	    <Image name="visualisation" fluid />
 	    <p>
-		    Example of keyframe summaries obtained by (a) the budget-constrained control chart method (BCC), (b) a submodular-convex optimisation method (SCX), and (c) assigning uniform-time events (UE), and their matched frames with the ground truth, for ADL dataset video #16. The total number of events in this video is 13, and the BCC method missed just one event, eating food/drink.
+		    <b>Fig. 1</b>  Example of keyframe summaries obtained by (a) the budget-constrained control chart method (BCC), (b) a submodular-convex optimisation method (SCX), and (c) assigning uniform-time events (UE), and their matched frames with the ground truth, for ADL dataset video #16. The total number of events in this video is 13, and the BCC method missed just one event, eating food/drink.
 	    </p>
     </div>
     <hr />
     <div style={{paddingBottom: '25px'}}>
     <h3>Reference</h3>
-    Yousefi P., Matthews C.E. and Kuncheva L.I., Budget-Constrained Online Video Summarisation of Egocentric Video Using Control Charts. Proceedings of The 13th International Symposium on Visual Computing (ISVC 2018), 2018, Las Vegas, USA. Lecture Notes in Computer Science, Springer, vol 11241, pp 640 - 649.
+    <p>Yousefi P., Matthews C.E. and Kuncheva L.I., Budget-Constrained Online Video Summarisation of Egocentric Video Using Control Charts. Proceedings of The 13th International Symposium on Visual Computing (ISVC 2018), 2018, Las Vegas, USA. Lecture Notes in Computer Science, Springer, vol 11241, pp 640 - 649.</p>
     </div>
     <hr />
     <div>
