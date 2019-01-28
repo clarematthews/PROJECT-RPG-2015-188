@@ -640,6 +640,41 @@ const Image = (props) => (
             }
           }
         }
+	controlChartScatter1: file(relativePath: { eq: "control-chart/scatter-1.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	controlChartScatter2: file(relativePath: { eq: "control-chart/scatter-2.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	controlChartScatter3: file(relativePath: { eq: "control-chart/scatter-3.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	controlChartScatter4: file(relativePath: { eq: "control-chart/scatter-4.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	controlChartScatter5: file(relativePath: { eq: "control-chart/scatter-5.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     `}
     render={data => {

@@ -47,7 +47,7 @@ const IndexPage = () => (
 	    </div>
 	    <div>
 		    <h4>Online summarisation</h4>
-		    <p>Online methods must process frames as they are received, and do not have access to the full video prior ro processing. We propose a <Link to='classification'>classification for online summarisation methods</Link>, based on their descriptive and distinguishing properties, and compare nine existing methods that are presented in terms of the classification. The findings from this comparison are used to develop a <Link to='budget'>budget-constrained online summarisation method</Link> that uses control-charts to identify shot boundaries in egocentric videos.</p>
+		    <p>Online methods must process frames as they are received, and do not have access to the full video prior ro processing. We propose a <Link to='classification'>classification for online summarisation methods</Link>, based on their descriptive and distinguishing properties, and compare nine existing methods that are presented in terms of the classification. The findings from this comparison are used to create an algorithm using <Link to='control-chart'>control-charts</Link> to identify shot boundaries in videos. The algorithm is further developed into a <Link to='budget'>budget-constrained online summarisation method</Link> for egocentric videos.</p>
 	    </div>
     </div>
     <hr/>
