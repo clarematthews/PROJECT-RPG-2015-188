@@ -675,6 +675,20 @@ const Image = (props) => (
             }
           }
         }
+	controlChartScatterVSUMM: file(relativePath: { eq: "control-chart/scatter-vsumm.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	controlChartVSUMM47CC: file(relativePath: { eq: "control-chart/cc-v47-user1.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     `}
     render={data => {
