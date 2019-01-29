@@ -258,6 +258,10 @@ const ControlChartPage = () => (
 	    <a style={{paddingLeft: '5px'}} href="https://research.bangor.ac.uk/portal/en/researchoutputs/using-control-charts-for-online-video-summarisation(3ac12245-73c9-47f5-b3d0-2ef59833ac82).html">Paper</a>
     </p>
     <p>
+            Code:
+            <a style={{paddingLeft: '5px'}} href="https://github.com/clarematthews/online-video-summarisation">GitHub</a>
+    </p>
+    <p>
 	    Data:
 	    <a style={{paddingLeft: '5px'}} href="https://sites.google.com/site/vsummsite/download">VSUMM</a>
     </p>
