@@ -45,6 +45,34 @@ const Image = (props) => (
             }
           }
         }
+	classificationData1: file(relativePath: { eq: "classification/dataset1.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	classificationData2: file(relativePath: { eq: "classification/dataset2.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	classificationRank: file(relativePath: { eq: "classification/data1-data2-rank.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+	classificationV29SCX: file(relativePath: { eq: "classification/scx-v29-user3.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
 	selectiveMethod: file(relativePath: { eq: "selective-summary/method.jpg" }) {
           childImageSharp {
             fluid(maxWidth: 2000) {
