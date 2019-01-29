@@ -292,7 +292,7 @@ const NearestNeighbourPage = () => (
     </p>
     <p>
 	    Code:
-	    <a style={{paddingLeft: '5px'}}>GitHub?</a>
+	    <a style={{paddingLeft: '5px'}} href="https://github.com/LucyKuncheva/1-nn-editing">GitHub</a>
     </p>
     <p>
             Data:

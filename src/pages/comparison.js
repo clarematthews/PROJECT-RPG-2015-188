@@ -63,10 +63,6 @@ const ComparisonPage = () => (
 	    <a style={{paddingLeft: '5px'}} href="http://pages.bangor.ac.uk/~mas00a/papers/pylkcmEG18.pdf">Paper</a>
     </p>
     <p>
-	    Code:
-	    <a style={{paddingLeft: '5px'}}>GitHub?</a>
-    </p>
-    <p>
             Data:
             <a style={{paddingLeft: '5px'}} href="https://www.csee.umbc.edu/~hpirsiav/papers/ADLdataset/">Activities of Daily Living</a>
     </p>

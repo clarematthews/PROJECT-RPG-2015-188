@@ -37,7 +37,7 @@ const BudgetPage = () => (
     </p>
     <p>
 	    Code:
-	    <a style={{paddingLeft: '5px'}}>GitHub?</a>
+	    <a style={{paddingLeft: '5px'}} href="https://github.com/pariay/Budget-constrained-Online-Video-Summarisation-of-Egocentric-Video">GitHub</a>
     </p>
     <p>
 	    Data:

@@ -405,10 +405,6 @@ const ClassificationPage = () => (
 	    <a style={{paddingLeft: '5px'}} href="https://link.springer.com/article/10.1007/s00138-019-01007-x?wt_mc=Internal.Event.1.SEM.ArticleAuthorOnlineFirst&utm_source=ArticleAuthorOnlineFirst&utm_medium=email&utm_content=AA_en_06082018&ArticleAuthorOnlineFirst_20190121">Paper</a>
     </p>
     <p>
-	    Code:
-	    <a style={{paddingLeft: '5px'}}>GitHub?</a>
-    </p>
-    <p>
             Data:
             <a style={{paddingLeft: '5px'}} href="https://sites.google.com/site/vsummsite/download">VSUMM</a>
     </p>

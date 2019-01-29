@@ -145,10 +145,6 @@ const ProtocolPage = () => (
 	    <a style={{paddingLeft: '5px'}} href="http://pages.bangor.ac.uk/~mas00a/papers/lkpyigArXiv17.pdf">Paper</a>
     </p>
     <p>
-	    Code:
-	    <a style={{paddingLeft: '5px'}}>GitHub?</a>
-    </p>
-    <p>
             Data:
             <a style={{paddingLeft: '5px'}} href="https://sites.google.com/site/vsummsite/download">VSUMM</a>
     </p>

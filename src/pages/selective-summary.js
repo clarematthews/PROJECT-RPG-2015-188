@@ -173,7 +173,7 @@ EDUB lifelog.
     </p>
     <p>
 	    Code:
-	    <a style={{paddingLeft: '5px'}}>GitHub?</a>
+	    <a style={{paddingLeft: '5px'}} href="https://github.com/pariay/Selective-Summary">GitHub</a>
     </p>
     <p>
             Data:
